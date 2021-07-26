@@ -1,4 +1,4 @@
-# `Control de Agua` - instrucciones para el usuario
+# Control de Agua - instrucciones para el usuario
 
 **¡Bienvenido!**
 
