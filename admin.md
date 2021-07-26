@@ -16,7 +16,7 @@ Luego, usted ingresará a una interfaz simple que le da diversas opciones para a
 Hay otro programa para esto: `Eliminar Archivo SQLite.exe` (ubicado en el mismo directorio que la app de configuración). En este, se le darán 3 opciones:
 
 - **Eliminar base de datos**. Esto destruirá de forma definitiva el archivo con _todo el registro_ de ventas. Esta acción no se puede deshacer.
-- **Abrir base de datos**. Esta opción simplemente abrirá la base de datos [\*](http://DiddiLeija.github.io/ControlDeAgua-docs/admin#notas).
+- **Abrir base de datos**. Esta opción simplemente abrirá la base de datos [\*](notas-*).
 - **Salir**. Cierra el programa.
 
 ****
