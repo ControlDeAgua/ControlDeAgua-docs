@@ -13,22 +13,22 @@ de las ventas en la purificadora.
 En el escritorio del equipo, usted debe ver un acceso directo llamado `Control de Agua` o `Control de Agua.lnk` (si no, vaya manualmente a
 `C:/Archivos de Programa/Control de Agua/build/exe.win32-3.8/Control de Agua.exe`). Al abrirlo, debería encontrarse con:
 
-![Solicitud de contraseña en la interfaz](https://diddileija.github.io/ControlDeAgua-docs/password_request.png)
+![Solicitud de contraseña en la interfaz](https://controldeagua.github.io/ControlDeAgua-docs/password_request.png)
 
 Se le solicitará una contraseña que se le asignó previamente (de no ser así, hable con el administrador para que lo registre). Rellene
 los datos con cuidado (especialmente la contraseña):
 
-![Rellenando los datos de contraseña](https://diddileija.github.io/ControlDeAgua-docs/password_request_2.png)
+![Rellenando los datos de contraseña](https://controldeagua.github.io/ControlDeAgua-docs/password_request_2.png)
 
 Cuando termine, haga clic en **"Ingresar ahora"**. Si los datos fueron aceptados, verá algo como esto:
 
-![Página principal](https://diddileija.github.io/ControlDeAgua-docs/main_gui_interface.png)
+![Página principal](https://controldeagua.github.io/ControlDeAgua-docs/main_gui_interface.png)
 
 ## El menú principal
 
 Analicemos ahora el menú principal de la aplicación. En él verá las siguientes opciones:
 
-![Menú inicial](https://diddileija.github.io/ControlDeAgua-docs/main_gui_interface.png)
+![Menú inicial](https://controldeagua.github.io/ControlDeAgua-docs/main_gui_interface.png)
 
 - **Nuevo registro**. Se le dirigirá a un formulario para admitir una nueva venta.
 - **Abrir base de datos (SQLite)**. Abrirá la base de datos con algún programa predeterminado.
@@ -37,7 +37,7 @@ Analicemos ahora el menú principal de la aplicación. En él verá las siguient
 
 ## El formulario de registro
 
-![Ejemplo del formulario](https://diddileija.github.io/ControlDeAgua-docs/form.png)
+![Ejemplo del formulario](https://controldeagua.github.io/ControlDeAgua-docs/form.png)
 
 Este formulario pregunta por:
 
