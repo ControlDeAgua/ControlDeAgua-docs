@@ -5,7 +5,7 @@
 Este proyecto fue desarrollado en un 100% usando [Python](http://python.org), un lenguaje sencillo y potente. De hecho, cada aplicación
 también tiene una versión en Python para desarrollar pruebas en `C:/Program Files/Control de Agua`: 
 
-![Directorio de C:/Program Files/Control De Agua](https://diddileija.github.io/ControlDeAgua-docs/programs_directory.png)
+![Directorio de C:/Program Files/Control De Agua](https://controldeagua.github.io/ControlDeAgua-docs/programs_directory.png)
 
 ## La interfaz
 
