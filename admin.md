@@ -9,7 +9,7 @@ uso para disfrutar algunas funciones de control que le hemos facilitado.
 
 En su escritorio debe ser capaz de ver un acceso directo llamado `Configuracion` o `Configuracion.lnk` (de no ser así, puede buscarlo manualmente
 en `C:/Archivos de Programa/Control de Agua/build/exe.win32-3.8/Configuracion.exe`. Una vez que lo abra, se le pedirá su clave especial de administrador (intente
-memorizarla antes de recibir el producto).
+memorizarla antes de recibir el producto) (Si no tiene una contraseña, se le lanzará una advertencia y el programa seguirá de forma normal).
 
 Luego, usted ingresará a una interfaz simple que le da diversas opciones para ajustar usuarios, productos, etc.
 
@@ -20,14 +20,14 @@ Hay otro programa para esto: `Eliminar Archivo SQLite.exe` (ubicado en el mismo 
 ![Interfaz de "Eliminar Archivo SQLite.exe"](https://controldeagua.github.io/ControlDeAgua-docs/delete-db_interface.png)
 
 - **Eliminar base de datos**. Esto destruirá de forma definitiva el archivo con _todo el registro_ de ventas. Esta acción no se puede deshacer.
-- **Abrir base de datos**. Esta opción simplemente abrirá la base de datos [\*](notas-*).
+- **Abrir base de datos**. Esta opción simplemente abrirá la base de datos (Vea la nota **1**).
 - **Salir**. Cierra el programa.
 
 ****
 
 ## Notas
 
-## \*
+### 1
 
-El archivo tiene una extensión SQLite. Esta clase de archivos normalmente no es reconocida por Windows. Si tiene problemas al abrir la base de datos, puede descargar
-un programa para abrirlo [aquí](http://sqlitebrowser.org/).
+El archivo de la base de datos tiene una extensión `SQLite`. Esta clase de archivos normalmente no es reconocida por Windows. Si tiene problemas al abrir la base de datos, 
+puede descargar un programa para abrirlo [aquí](http://sqlitebrowser.org/).
