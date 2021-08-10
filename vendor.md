@@ -24,6 +24,8 @@ Cuando termine, haga clic en **"Ingresar ahora"**. Si los datos fueron aceptados
 
 ![Página principal](https://controldeagua.github.io/ControlDeAgua-docs/main_gui_interface.png)
 
+_(NOTA: La imagen mostrada en el menú del programa puede variar, dependiendo de su distribución)_.
+
 ## El menú principal
 
 Analicemos ahora el menú principal de la aplicación. En él verá las siguientes opciones:
