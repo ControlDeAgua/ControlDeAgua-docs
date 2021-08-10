@@ -23,6 +23,12 @@ Hay otro programa para esto: `Eliminar Archivo SQLite.exe` (ubicado en el mismo 
 - **Abrir base de datos**. Esta opción simplemente abrirá la base de datos (Vea la nota **1**).
 - **Salir**. Cierra el programa.
 
+## ¿Problemas con alguno de los programas?
+
+Si usted o alguno de los usuarios experimenta problemas para usar los programas mencionados en este sitio (`Control de Agua`, `Configuracion`, `Eliminar archivo SQLite`,
+`Cambiar clave de administrador`, o alguna herramienta con Python), no dude en reportarlo a los desarrolladores en
+[GitHub](http://github.com/ControlDeAgua/ControlDeAgua/issues). Allí recibirá atención lo antes posible, o se le dará soporte de usuario.
+
 ****
 
 ## Notas
