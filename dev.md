@@ -37,7 +37,12 @@ Para aligerar el peso de algunas funciones, separé algunas cosas en una carpeta
 - `tools.users` - Manejo de usuarios
 - `tools.windowmanager` - Manejo del aspecto de ventanas de Tkinter (titulo, tamaño)
 
+## Transportar el código usando `installer`
+
+Hemos creado y publicado una herramienta específicamente para instalar `Control de Agua`: [`installer`](https://github.com/ControlDeAgua/installer). Puede usarlo para 
+[transportar e instalar el código con una unidad USB](https://github.com/ControlDeAgua/installer/tree/2021.08.12#transportar-el-c%C3%B3digo-mediante-una-unidad-usb).
+
 ## Licencia de uso
 
-A pesar de ser "modificables", todas estas aplicaciones, funciones y módulos personalizados
+A pesar de ser "modificables", todas estas aplicaciones, funciones y módulos personalizados (incluyendo las herramientas personalizadas)
 están protegidas por [una licencia de MIT](http://github.com/DiddiLeija/ControlDeAgua/blob/main/LICENSE).
