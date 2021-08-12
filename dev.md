@@ -39,7 +39,7 @@ Para aligerar el peso de algunas funciones, separé algunas cosas en una carpeta
 
 ## Transportar el código usando `installer`
 
-Hemos creado y publicado una herramienta específicamente para instalar `Control de Agua`: [`installer`](https://github.com/ControlDeAgua/installer). Puede usarlo para 
+Hemos creado y publicado una herramienta específicamente para instalar `Control de Agua`, llamado [`installer`](https://github.com/ControlDeAgua/installer). Puede usarlo para 
 [transportar e instalar el código con una unidad USB](https://github.com/ControlDeAgua/installer/tree/2021.08.12#transportar-el-c%C3%B3digo-mediante-una-unidad-usb).
 
 ## Licencia de uso
