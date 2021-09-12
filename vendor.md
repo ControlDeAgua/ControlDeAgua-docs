@@ -43,8 +43,7 @@ Analicemos ahora el menú principal de la aplicación. En él verá las siguient
 
 Este formulario pregunta por:
 
-- **Lectura del odometro**. Introduzca la lectura que le aparezca para generar un reporte al final del día.
-- **Producto vendido**. Seleccione el producto que vendió para calcular el costo por unidad.
-- **Unidades vendidas**. Introduzca la cantidad de unidades que vendió del producto ya seleccionado.
+1. **Producto vendido**. Seleccione el producto que vendió para calcular el costo por unidad.
+2. **Unidades vendidas**. Introduzca la cantidad de unidades que vendió del producto ya seleccionado.
 
 Una vez que termine, haga clic en **Aceptar**. Si todo salió bien, recibirá un mensaje de "Operación exitosa" y volverá al menú.
