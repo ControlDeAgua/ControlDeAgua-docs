@@ -13,6 +13,11 @@ memorizarla antes de recibir el producto) (Si no tiene una contraseña, se le la
 
 Luego, usted ingresará a una interfaz simple que le da diversas opciones para ajustar usuarios, productos, etc.
 
+### Manejar un producto
+
+En la app de configuración, hay una opción llamada "Manejar la información de producto". AL hacer clic en ella, se le redirigirá a otra aplicación, diseñada
+específicamente para manejar la información de los productos utilizados en el resto de los programas.
+
 ## Limpiar la base de datos
 
 Hay otro programa para esto: `Eliminar Archivo SQLite.exe` (ubicado en el mismo directorio que la app de configuración). En este, se le darán 3 opciones:
@@ -22,18 +27,3 @@ Hay otro programa para esto: `Eliminar Archivo SQLite.exe` (ubicado en el mismo 
 - **Eliminar base de datos**. Esto destruirá de forma definitiva el archivo con _todo el registro_ de ventas. Esta acción no se puede deshacer.
 - **Abrir base de datos**. Esta opción simplemente abrirá la base de datos (Vea la nota **1**).
 - **Salir**. Cierra el programa.
-
-## ¿Problemas con alguno de los programas?
-
-Si usted o alguno de los usuarios experimenta problemas para usar los programas mencionados en este sitio (`Control de Agua`, `Configuracion`, `Eliminar archivo SQLite`,
-`Cambiar clave de administrador`, o alguna herramienta con Python), no dude en reportarlo a los desarrolladores en
-[GitHub](http://github.com/ControlDeAgua/bug_tracker/issues). Allí recibirá atención lo antes posible, o se le dará soporte de usuario.
-
-****
-
-## Notas
-
-### 1
-
-El archivo de la base de datos tiene una extensión `SQLite`. Esta clase de archivos normalmente no es reconocida por Windows. Si tiene problemas al abrir la base de datos, 
-puede descargar un programa para abrirlo [aquí](http://sqlitebrowser.org/).
