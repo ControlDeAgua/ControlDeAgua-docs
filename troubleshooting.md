@@ -1,4 +1,4 @@
-# Solución de problemas con `Control de Agua`... y productos relacionados
+# Solución de problemas con "Control de Agua" y otros productos relacionados
 
 En esta página, hemos reunido algunos de los problemas más comunes al usar los programas proporcionados en `Control de Agua`. Esto incluye:
 
