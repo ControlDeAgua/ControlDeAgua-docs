@@ -1,6 +1,6 @@
 # Solución de problemas con "Control de Agua" y otros productos relacionados
 
-En esta página, hemos reunido algunos de los problemas más comunes al usar los programas proporcionados en `Control de Agua`. Esto incluye:
+En esta página, hemos reunido algunos de los problemas más comunes al usar los programas relacionados a `Control de Agua`. Esto incluye:
 
 - Todos los programas incluidos con el programa principal de `Control de Agua`
 - El instalador `installer`
@@ -8,7 +8,7 @@ En esta página, hemos reunido algunos de los problemas más comunes al usar los
 ## Cuando quiero abrir el "archivo SQLite" (la base de datos, según la aplicación), me aparece un mensaje que dice que no existe ningún programa para abrir ese archivo.
 
 El archivo de la base de datos tiene una extensión de archivo SQLite
-(`.sqlite`). Esta clase de archivos normalmente no es reconocida por Windows. Si tiene problemas al abrir la base de datos, 
+(`.sqlite`). Esta clase de archivos normalmente no es reconocida por Windows. Si no tiene un programa para abrir la base de datos, 
 puede descargar un programa para abrirlo [aquí](http://sqlitebrowser.org/).
 
 ## Al usar _installer_ para instalar el código, me lanza un error y no instala nada.
@@ -21,7 +21,12 @@ administrativos a la aplicación.
 Otra situación común es que `installer` no encuentra el archivo ZIP de `Control de Agua` (debe llamarse `Control de Agua-1.0.0.zip` y debe estar en el mismo directorio
 que el ejecutable o la aplicación). Verifique e intente de nuevo.
 
-Otras veces, el mismo programa tiene problemas al instalar la biblioteca de `Control de Agua`. En esas ocasiones, se puede solucionar con correr el programa de nuevo.
+A veces, mientras el programa instala, si presiona `Ctrl + C` (o en ciertas ocasiones, `Delete`), el programa abortará la instalación. Esto se debe a que Python
+lanza una excepción, que obliga a abortar el programa
+(vea [la referencia](https://docs.python.org/3/library/exceptions.html?highlight=keyboardinterrupt#KeyboardInterrupt)).
+
+Otras veces, el mismo programa tiene problemas al instalar la biblioteca de `Control de Agua`, debido a errores menos comunes.
+En esas ocasiones, se puede solucionar con correr el programa de nuevo.
 
 ## En [la documentación](https://ControlDeAgua.github.io/ControlDeAgua-docs), se dice que las aplicaciones de `Control de Agua` deben estar en `C:/Program Files/Control de Agua/build/exe.win32-3.9`, pero ese directorio no lo encuentro.
 
@@ -30,7 +35,10 @@ creó la aplicación (ejemplos: `exe.win-amd64-3.8`, `exe.win32-3.7`, `exe.win-a
 
 Escogimos `exe.win32-3.8` porque ese era el nombre del directorio generado en el primer ordenador que probamos.
 
+_Para desarrolladores:_ `Control de Agua` tiene una lógica para detectar el directorio mencionado arriba. Puede ver
+el archivo [aquí](https://github.com/ControlDeAgua/ControlDeAgua/blob/main/tools/build_platform_dir.py).
+
 ## ¿No encuentra lo que buscaba?
 
 Si sigue experimentando problemas, puede reportarlos [en el _tracker_ de GitHub](https://github.com/ControlDeAgua/bug_tracker). Ahí trataremos de darle soporte lo antes 
-posible. Solo necesita una cuenta de [GitHub](https://github.com) para hacer un reporte (es totalmente gratuito).
+posible. Solo necesita una cuenta de [GitHub](https://github.com) para hacer un reporte (registrarse es totalmente gratuito).
