@@ -16,7 +16,8 @@ Luego, usted ingresará a una interfaz simple que le da diversas opciones para a
 ### Manejar un producto
 
 En la app de configuración, hay una opción llamada "Manejar la información de producto". AL hacer clic en ella, se le redirigirá a otra aplicación, diseñada
-específicamente para manejar la información de los productos utilizados en el resto de los programas.
+específicamente para manejar la información de los productos utilizados en el resto de los programas. Esta provee opciones para modificar, eliminar o
+crear información de su inventario.
 
 ## Limpiar la base de datos
 
