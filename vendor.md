@@ -15,8 +15,10 @@ En el escritorio del equipo, usted debe ver un acceso directo llamado `Control d
 
 ![Solicitud de contraseña en la interfaz](https://controldeagua.github.io/ControlDeAgua-docs/password_request.png)
 
-Se le solicitará una contraseña que se le asignó previamente (de no ser así, hable con el administrador para que lo registre). Rellene
-los datos con cuidado (especialmente la contraseña):
+Se le solicitará una contraseña que se le asignó previamente (de no ser así, hable con el administrador para que lo registre). Además,
+debe introducir la lectura del odómetro (que se actualizará a partir de entonces).
+
+Rellene los datos con cuidado (especialmente la contraseña):
 
 ![Rellenando los datos de contraseña](https://controldeagua.github.io/ControlDeAgua-docs/password_request_2.png)
 
@@ -35,7 +37,6 @@ Analicemos ahora el menú principal de la aplicación. En él verá las siguient
 - **Nuevo registro**. Se le dirigirá a un formulario para admitir una nueva venta.
 - **Abrir base de datos (SQLite)**. Abrirá la base de datos con algún programa predeterminado.
 - **Cerrar sesión**. El programa volverá a solicitar la contraseña para el nuevo usuario. Esta opción lo da de baja a usted sin problema, y vuelve a su estado inicial para ser utilizado de nuevo.
-- **Salir**. Cierra el programa completamente. 
 
 ## El formulario de registro
 
