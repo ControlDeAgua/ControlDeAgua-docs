@@ -5,6 +5,18 @@ En esta página, hemos reunido algunos de los problemas más comunes al usar los
 - Todos los programas incluidos con el programa principal de `Control de Agua`
 - El instalador `installer`
 
+## En ocasiones, al abrir Control de Agua, me sale un mensaje de error que dice en parte: "sqlite3.OperationalError: File is not a database"
+
+Parece que el archivo de la base de datos existe, pero no es identificado como tal por el programa. Un truco para resolver el problema es abrir la app
+[`Eliminar base de datos.exe`](https://controldeagua.github.io/ControlDeAgua-docs/admin#limpiar-la-base-de-datos) (distribuida con Control de Agua), y dar clic en
+**Eliminar base de datos**. Luego, vuelva a abrir el programa principal (`Control de Agua`)
+
+**_Para desarrolladores:_** ¿Por qué sucede este error? Bueno, usamos el módulo estándar de Python [sqlite3](https://docs.python.org/3/library/sqlite3.html) para manejar la 
+base  de datos. Éste módulo lanza un excepción `sqlite3.OperationalError: File is not a database` al tratar de abrir un archivo como base de datos, que no está vacío y 
+no es una base de datos (pues su interpretación como tal es inválida). Por eso el mensaje se presenta como un pantallazo de error. Al seguir las instrucciones de arriba, se 
+eliminará el archivo, pero inmediatamente después se restaurará como una base de datos válida y limpia, y el error no se repetirá. Es común que esto suceda en una instalación
+nueva de Control de Agua.
+
 ## Cuando quiero abrir el "archivo SQLite" (la base de datos, según la aplicación), me aparece un mensaje que dice que no existe ningún programa para abrir ese archivo.
 
 El archivo de la base de datos tiene una extensión de archivo SQLite
@@ -35,7 +47,7 @@ creó la aplicación (ejemplos: `exe.win-amd64-3.8`, `exe.win32-3.7`, `exe.win-a
 
 Escogimos `exe.win32-3.8` porque ese era el nombre del directorio generado en el primer ordenador que probamos.
 
-_Para desarrolladores:_ `Control de Agua` tiene una lógica para detectar el directorio mencionado arriba. Puede ver
+**_Para desarrolladores:_** `Control de Agua` tiene una lógica para detectar el directorio mencionado arriba. Puede ver
 el archivo [aquí](https://github.com/ControlDeAgua/ControlDeAgua/blob/main/tools/build_platform_dir.py).
 
 ## ¿No encuentra lo que buscaba?
