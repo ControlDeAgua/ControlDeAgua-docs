@@ -35,7 +35,7 @@ que el ejecutable o la aplicación). Verifique e intente de nuevo.
 
 A veces, mientras el programa instala, si presiona `Ctrl + C` (o en ciertas ocasiones, `Delete`), el programa abortará la instalación. Esto se debe a que Python
 lanza una excepción, que obliga a abortar el programa
-(vea [la referencia](https://docs.python.org/3/library/exceptions.html?highlight=keyboardinterrupt#KeyboardInterrupt)).
+(vea [la referencia aquí](https://docs.python.org/3/library/exceptions.html?highlight=keyboardinterrupt#KeyboardInterrupt)).
 
 Otras veces, el mismo programa tiene problemas al instalar la biblioteca de `Control de Agua`, debido a errores menos comunes.
 En esas ocasiones, se puede solucionar con correr el programa de nuevo.
@@ -48,7 +48,7 @@ creó la aplicación (ejemplos: `exe.win-amd64-3.8`, `exe.win32-3.7`, `exe.win-a
 Escogimos `exe.win32-3.8` porque ese era el nombre del directorio generado en el primer ordenador que probamos.
 
 **_Para desarrolladores:_** `Control de Agua` tiene una lógica para detectar el directorio mencionado arriba. Puede ver
-el archivo [aquí](https://github.com/ControlDeAgua/ControlDeAgua/blob/main/tools/build_platform_dir.py).
+el archivo [aquí](https://github.com/ControlDeAgua/ControlDeAgua/blob/main/tools/pathfinders.py).
 
 ## ¿No encuentra lo que buscaba?
 
